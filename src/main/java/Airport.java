@@ -6,8 +6,8 @@ public class Airport {
     int capacity;
     String weather;
 
-    public Airport() {
-        this.capacity = 0;
+    public Airport(int capacity) {
+        this.capacity = capacity;
         this.weather = "sunny";
         this.planes = new ArrayList();
     }
